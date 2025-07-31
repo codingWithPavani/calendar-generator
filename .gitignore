@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.env
+
+# SQLite database
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
+
+# Static files
+staticfiles/
+
+# Media files (optional if you use media uploads)
+media/
+
+# Local settings (if you use them)
+local_settings.py
+
+# Render build files (if any)
+build/
